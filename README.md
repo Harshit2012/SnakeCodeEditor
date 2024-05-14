@@ -21,9 +21,10 @@ A python code-editor only to make console application.
 - Brython Library
 
 ## How to use?
-1. Write the code
-2. Link the `run` button
-3. Open the console to see the result
+1. Click `Get Started`.
+2. Write the code
+3. Link the `run` button
+4. Open the console to see the result
 
 ## Preview
 ![SnakeEdit](https://github.com/Harshit2012/SnakeCodeEditor/assets/105143145/944e8a6b-ff6e-4588-b2b4-e90ad3c6e25f)
