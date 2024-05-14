@@ -29,4 +29,4 @@ A python code-editor only to make console application.
 ![SnakeEdit](https://github.com/Harshit2012/SnakeCodeEditor/assets/105143145/944e8a6b-ff6e-4588-b2b4-e90ad3c6e25f)
 
 ## License
-This repository is under [MIT License](https://github.com/Harshit2012/SnakeCodeEdit?tab=MIT-1-ov-file#readme)
+This repository is under [MIT License](https://github.com/Harshit2012/SnakeCodeEditor?tab=MIT-1-ov-file#readme)
