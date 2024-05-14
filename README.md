@@ -26,6 +26,39 @@ A python code-editor only to make console application.
 3. Link the `run` button
 4. Open the console to see the result
 
+### Cloning Your Fork
+
+To clone your forked repository, use the following command in your terminal:
+
+```bash
+git clone https://github.com/Harshit2012/SnakeCodeEditor.git
+cd SnakeCodeEditor
+```
+
+## Syncing Your Fork
+To sync your fork with the original repository, you’ll need to add the original repository as an upstream remote:
+```bash
+git remote add upstream https://github.com/Harshit2012/SnakeCodeEditor.git
+```
+
+**Fetch the branches and their respective commits from the upstream repository:**
+
+```bash
+git fetch upstream
+```
+
+**Check out your fork’s local default branch - usually main:**
+
+```bash
+git checkout main
+```
+
+**Merge the changes from the upstream default branch - usually main:**
+
+```bash
+git merge upstream/main
+```
+
 ## Preview
 ![SnakeEdit](https://github.com/Harshit2012/SnakeCodeEditor/assets/105143145/944e8a6b-ff6e-4588-b2b4-e90ad3c6e25f)
 
