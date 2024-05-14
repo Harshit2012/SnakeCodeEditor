@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeEdit</title>
+    <link rel="icon" href="logo.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.12.3/brython.min.js" integrity="sha256-5S+uyI6JXTLNxOAgBefqpfBerBAl/sgb8DYOmGvBrE0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="brython()">
+    <div id="editor">
+        <textarea id="python-code" placeholder="Write your Python code here..."></textarea>
+        <button id="run-button">
+            <span class="run-icon">&#9658;</span> Run Code
+        </button>
+    </div>
+
+    <script type="text/python">
+        from browser import document
+
+        def run_python(event):
+            try:
+                exec(document["python-code"].value)
+            except Exception as e:
+                print("Error: " + str(e))
+        document["run-button"].bind("click", run_python)
+    </script>
+</body>
+</html>

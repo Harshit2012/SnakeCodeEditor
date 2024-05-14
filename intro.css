@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+i {
+    color: green;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+#intro {
+    display: flex;
+    padding: 20px;
+}
+
+#gs {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+
+#gs:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+#preview_img {
+    height: 280px;
+    width: 500px;
+    transform: translate(250px, 10px);
+}
+
+#g_img {
+    height: 100px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+#github-osource {
+    border: 5px solid white;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 10px;
+}
