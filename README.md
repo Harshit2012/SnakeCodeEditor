@@ -2,7 +2,7 @@
   <img height="100" width="100" src="logo.jpg">
 </p>
 
-# SnakeCodeEditor - v1.0.1
+# SnakeCodeEditor - v1.0.2
 A python code-editor only to make console application.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Harshit2012/SnakeCodeEdit?tab=MIT-1-ov-file#readme)
