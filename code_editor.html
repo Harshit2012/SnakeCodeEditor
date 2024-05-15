@@ -11,9 +11,11 @@
 <body onload="brython()">
     <div id="editor">
         <textarea id="python-code" placeholder="Write your Python code here..."></textarea>
-        <button id="run-button">
-            <span class="run-icon">&#9658;</span> Run Code
-        </button>
+        <span><button id="run-button">
+                <span class="run-icon">&#9658;</span> Run Code
+        </button></span>
+        <button class="button" onclick="saveText()">Save</button>
+        <button class="button" onclick="importText()">Import</button>
     </div>
 
     <script type="text/python">
@@ -26,5 +28,6 @@
                 print("Error: " + str(e))
         document["run-button"].bind("click", run_python)
     </script>
+    <script src="main.js"></script>
 </body>
 </html>
